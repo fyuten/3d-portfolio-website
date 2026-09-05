@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Åke Berg">
+	<meta name="description" content="Portfolio of Åke Berg — games, 3D models and animations.">
+	<meta name="keywords" content="Åke Berg, portfolio, games, 3D, models, animation, virtual production">
+	<title>Åke Berg — Portfolio</title>
+	<link rel="stylesheet" href="style.css?rnd=1">
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="#about">Åke Berg</a>
+		<nav class="site-nav" id="nav">
+			<a href="#about">About</a>
+			<a href="#work">Work</a>
+			<a href="#gallery">Gallery</a>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about" class="section hero">
+			<h1 class="hero-title">Åke Berg</h1>
+			<p class="hero-role">Indie game maker &amp; 3D artist</p>
+			<p class="hero-lead">
+				Digital Media student at Stockholms universitet, graduating in
+				December 2026. I work across real-time 3D and virtual production, and
+				I'm looking for work in development or 3D.
+			</p>
+			<ul class="tool-tags" aria-label="Tools">
+				<li>Blender</li>
+				<li>Maya</li>
+				<li>Unity</li>
+				<li>Substance Painter</li>
+				<li>Premiere Pro</li>
+				<li>After Effects</li>
+			</ul>
+			<div class="hero-actions">
+				<a class="btn btn-primary" href="#work">View work</a>
+				<a class="btn" href="mailto:ake.berg@outlook.com">Get in touch</a>
+			</div>
+		</section>
+
+		<section id="work" class="section">
+			<div class="section-head">
+				<h2>Work</h2>
+				<p class="section-sub">Click a project to see more.</p>
+			</div>
+			<div class="filters" id="filters" role="tablist" aria-label="Filter projects"></div>
+			<div class="grid work-grid" id="work-grid"></div>
+			<p class="empty" id="work-empty" hidden>No projects in this category yet.</p>
+		</section>
+
+		<section id="gallery" class="section">
+			<div class="section-head">
+				<h2>Gallery</h2>
+				<p class="section-sub">Everything in one place — click any image to open it.</p>
+			</div>
+			<div class="gallery-grid" id="gallery-grid"></div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<p>Åke Berg · Stockholm, Sweden · <a href="mailto:ake.berg@outlook.com">ake.berg@outlook.com</a></p>
+	</footer>
+
+	<div class="lightbox" id="lightbox" hidden>
+		<button class="lb-close" id="lb-close" aria-label="Close">&times;</button>
+		<button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous">&#8249;</button>
+		<figure class="lb-figure">
+			<div class="lb-stage" id="lb-stage"></div>
+			<figcaption class="lb-caption" id="lb-caption">
+				<span id="lb-title"></span>
+				<span class="lb-desc" id="lb-desc"></span>
+			</figcaption>
+		</figure>
+		<button class="lb-nav lb-next" id="lb-next" aria-label="Next">&#8250;</button>
+	</div>
+
+	<script src="data.js?rnd=1"></script>
+	<script src="app.js?rnd=1"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Raw render exports (unused by the site — .jpg versions are what's actually loaded)
+media/**/*.png
+
+# Course assignment brief (not part of the site)
+Webbutveckling_I.pdf
+
+# OS cruft
+.DS_Store
+Thumbs.db
