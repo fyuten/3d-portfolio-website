@@ -1,6 +1,6 @@
 # 3D Portfolio Website
 
-A personal portfolio site for **Åke Berg** — indie game maker & 3D artist, Digital Media student at Stockholms universitet. Showcases 3D models and animation work with a filterable project grid, a full media gallery, and a lightbox viewer.
+A personal portfolio. Showcases 3D models and animation work with a filterable project grid, a full media gallery, and a lightbox viewer.
 
 Built as a school project (Gesällprov, Webbutveckling I) with no frameworks — just vanilla HTML, CSS and JavaScript.
 
